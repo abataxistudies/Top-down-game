@@ -1,0 +1,140 @@
+[gd_scene format=4 uid="uid://b3tf24iuycvcs"]
+
+[ext_resource type="Texture2D" uid="uid://dtt2ut1s3eagy" path="res://Asset/checker_512x512/checker_black_512x512.png" id="1_7almn"]
+[ext_resource type="Script" uid="uid://bkujkf7516xmm" path="res://Script/player.gd" id="1_53m4d"]
+[ext_resource type="Texture2D" uid="uid://07eqyhjqt0mj" path="res://Asset/checker_512x512/checker_blue_512x512.png" id="2_m7fl4"]
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="2_mpmvb"]
+[ext_resource type="Texture2D" uid="uid://bc7scij8x0eqv" path="res://Asset/checker_512x512/checker_cyan_512x512.png" id="3_lgf31"]
+[ext_resource type="Texture2D" uid="uid://coaincvds2rce" path="res://Asset/checker_512x512/checker_lime_512x512.png" id="4_obvlr"]
+[ext_resource type="Texture2D" uid="uid://c0rl1t7la62s3" path="res://Asset/checker_512x512/checker_orange_512x512.png" id="5_u3v0p"]
+[ext_resource type="Texture2D" uid="uid://d3rwwgwh5c5ir" path="res://Asset/checker_512x512/checker_pink_512x512.png" id="6_sp175"]
+[ext_resource type="Texture2D" uid="uid://bb7kv3oe14un4" path="res://Asset/checker_512x512/checker_red_512x512.png" id="7_1uo2c"]
+[ext_resource type="Texture2D" uid="uid://crq6lv6t4msf2" path="res://Asset/checker_512x512/checker_white_512x512.png" id="8_ucvwu"]
+[ext_resource type="Texture2D" uid="uid://c1j5dl23utmr2" path="res://Asset/checker_512x512/checker_yellow_512x512.png" id="9_2s2c0"]
+[ext_resource type="PackedScene" uid="uid://f6grr6f1fpoe" path="res://Scene/interactable_area.tscn" id="12_m7fl4"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b3bx6"]
+texture = ExtResource("1_7almn")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n86a4"]
+texture = ExtResource("2_m7fl4")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r44gg"]
+texture = ExtResource("3_lgf31")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ha2wn"]
+texture = ExtResource("4_obvlr")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hcxjj"]
+texture = ExtResource("5_u3v0p")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l51vy"]
+texture = ExtResource("6_sp175")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ys71v"]
+texture = ExtResource("7_1uo2c")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t151w"]
+texture = ExtResource("8_ucvwu")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i3lyw"]
+texture = ExtResource("9_2s2c0")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_0yc80"]
+tile_size = Vector2i(512, 512)
+sources/0 = SubResource("TileSetAtlasSource_b3bx6")
+sources/1 = SubResource("TileSetAtlasSource_n86a4")
+sources/2 = SubResource("TileSetAtlasSource_r44gg")
+sources/3 = SubResource("TileSetAtlasSource_ha2wn")
+sources/4 = SubResource("TileSetAtlasSource_hcxjj")
+sources/5 = SubResource("TileSetAtlasSource_l51vy")
+sources/6 = SubResource("TileSetAtlasSource_ys71v")
+sources/7 = SubResource("TileSetAtlasSource_t151w")
+sources/8 = SubResource("TileSetAtlasSource_i3lyw")
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0yc80"]
+radius = 28.284271
+
+[sub_resource type="Gradient" id="Gradient_7almn"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_0yc80"]
+gradient = SubResource("Gradient_7almn")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wkpy8"]
+radius = 61.188232
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_m7fl4"]
+polygon = PackedVector2Array(158, 68, 154, -124, 201, -134, 215, 115)
+
+[node name="Gym" type="Node2D" unique_id=1983661815]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=312485584]
+tile_map_data = PackedByteArray("AAD/////AAAAAAAAAAAAAP//AAAAAAAAAAABAP//AAAAAAAAAAACAP//AAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAD//wEAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAEAAAAAAAAAAAACAAEAAAAAAAAAAAD+/wIAAwAAAAAAAAD//wIAAwAAAAAAAAAAAAIAAwAAAAAAAAABAAIAAwAAAAAAAAACAAIAAwAAAAAAAAADAAIAAwAAAAAAAAADAAEAAwAAAAAAAAADAAAAAwAAAAAAAAADAP//AwAAAAAAAAADAP7/AwAAAAAAAAACAP7/AwAAAAAAAAABAP7/AwAAAAAAAAAAAP7/AwAAAAAAAAD///7/AwAAAAAAAAD+//7/AwAAAAAAAAD+////AwAAAAAAAAD+/wAAAwAAAAAAAAD+/wEAAwAAAAAAAAA=")
+tile_set = SubResource("TileSet_0yc80")
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=1841931163]
+script = ExtResource("1_53m4d")
+
+[node name="Icon" type="Sprite2D" parent="Player" unique_id=2122073254]
+scale = Vector2(0.43554688, 0.43554688)
+texture = ExtResource("2_mpmvb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1991615587]
+shape = SubResource("CircleShape2D_0yc80")
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player" unique_id=1124367911]
+remote_path = NodePath("../../Marker2D")
+
+[node name="PointLight2D" type="PointLight2D" parent="Player" unique_id=1695547459]
+shadow_enabled = true
+texture = SubResource("GradientTexture2D_0yc80")
+
+[node name="InteractionArea" type="Area2D" parent="Player" unique_id=1768484335]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/InteractionArea" unique_id=1121535108]
+shape = SubResource("CircleShape2D_wkpy8")
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=301919254]
+
+[node name="Camera2D" type="Camera2D" parent="Marker2D" unique_id=1362527927]
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_left_margin = 0.1
+drag_top_margin = 0.1
+drag_right_margin = 0.1
+drag_bottom_margin = 0.1
+editor_draw_drag_margin = true
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="." unique_id=319437384]
+occluder = SubResource("OccluderPolygon2D_m7fl4")
+
+[node name="InteractableArea" parent="." unique_id=1044666560 instance=ExtResource("12_m7fl4")]
+position = Vector2(564, 252)
+
+[connection signal="interacted" from="InteractableArea" to="Player" method="_on_interactable_area_interacted"]
