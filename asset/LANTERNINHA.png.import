@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1j5dl23utmr2"
-path="res://.godot/imported/checker_yellow_512x512.png-aaa505a374ad1bb36bf705b28589816f.ctex"
+uid="uid://uhociv5lqros"
+path="res://.godot/imported/LANTERNINHA.png-d77ae7ee90d62a1c3cba5bef2f68c9d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/checker_512x512/checker_yellow_512x512.png"
-dest_files=["res://.godot/imported/checker_yellow_512x512.png-aaa505a374ad1bb36bf705b28589816f.ctex"]
+source_file="res://asset/LANTERNINHA.png"
+dest_files=["res://.godot/imported/LANTERNINHA.png-d77ae7ee90d62a1c3cba5bef2f68c9d8.ctex"]
 
 [params]
 

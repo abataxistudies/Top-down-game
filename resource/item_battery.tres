@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://cebnp0oiidpl4"]
+
+[ext_resource type="Script" uid="uid://coki1ga7xabsy" path="res://script/item.gd" id="1_sgnmh"]
+
+[resource]
+script = ExtResource("1_sgnmh")
+name = &"battery"
+description = "  Reabastece a energia da laterna"
+metadata/_custom_type_script = "uid://coki1ga7xabsy"

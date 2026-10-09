@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3rwwgwh5c5ir"
-path="res://.godot/imported/checker_pink_512x512.png-36e6611dbf02e035498cddbde021c607.ctex"
+uid="uid://crq6lv6t4msf2"
+path="res://.godot/imported/checker_white_512x512.png-a99dc8ff5c54c13a0045ea931c043fcb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/checker_512x512/checker_pink_512x512.png"
-dest_files=["res://.godot/imported/checker_pink_512x512.png-36e6611dbf02e035498cddbde021c607.ctex"]
+source_file="res://asset/checker_512x512/checker_white_512x512.png"
+dest_files=["res://.godot/imported/checker_white_512x512.png-a99dc8ff5c54c13a0045ea931c043fcb.ctex"]
 
 [params]
 

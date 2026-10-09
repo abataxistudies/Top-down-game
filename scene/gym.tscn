@@ -1,60 +1,61 @@
 [gd_scene format=4 uid="uid://b3tf24iuycvcs"]
 
-[ext_resource type="Texture2D" uid="uid://dtt2ut1s3eagy" path="res://Asset/checker_512x512/checker_black_512x512.png" id="1_7almn"]
-[ext_resource type="Script" uid="uid://bkujkf7516xmm" path="res://Script/player.gd" id="1_53m4d"]
-[ext_resource type="Texture2D" uid="uid://07eqyhjqt0mj" path="res://Asset/checker_512x512/checker_blue_512x512.png" id="2_m7fl4"]
-[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="2_mpmvb"]
-[ext_resource type="Texture2D" uid="uid://bc7scij8x0eqv" path="res://Asset/checker_512x512/checker_cyan_512x512.png" id="3_lgf31"]
-[ext_resource type="Texture2D" uid="uid://coaincvds2rce" path="res://Asset/checker_512x512/checker_lime_512x512.png" id="4_obvlr"]
-[ext_resource type="Texture2D" uid="uid://c0rl1t7la62s3" path="res://Asset/checker_512x512/checker_orange_512x512.png" id="5_u3v0p"]
-[ext_resource type="Texture2D" uid="uid://d3rwwgwh5c5ir" path="res://Asset/checker_512x512/checker_pink_512x512.png" id="6_sp175"]
-[ext_resource type="Texture2D" uid="uid://bb7kv3oe14un4" path="res://Asset/checker_512x512/checker_red_512x512.png" id="7_1uo2c"]
-[ext_resource type="Texture2D" uid="uid://crq6lv6t4msf2" path="res://Asset/checker_512x512/checker_white_512x512.png" id="8_ucvwu"]
-[ext_resource type="Texture2D" uid="uid://c1j5dl23utmr2" path="res://Asset/checker_512x512/checker_yellow_512x512.png" id="9_2s2c0"]
-[ext_resource type="PackedScene" uid="uid://f6grr6f1fpoe" path="res://Scene/interactable_area.tscn" id="12_m7fl4"]
+[ext_resource type="Texture2D" uid="uid://dtt2ut1s3eagy" path="res://asset/checker_512x512/checker_black_512x512.png" id="1_js5kq"]
+[ext_resource type="Texture2D" uid="uid://07eqyhjqt0mj" path="res://asset/checker_512x512/checker_blue_512x512.png" id="2_vtby7"]
+[ext_resource type="Texture2D" uid="uid://bc7scij8x0eqv" path="res://asset/checker_512x512/checker_cyan_512x512.png" id="3_842w1"]
+[ext_resource type="Texture2D" uid="uid://coaincvds2rce" path="res://asset/checker_512x512/checker_lime_512x512.png" id="4_xqcrn"]
+[ext_resource type="Texture2D" uid="uid://c0rl1t7la62s3" path="res://asset/checker_512x512/checker_orange_512x512.png" id="5_humct"]
+[ext_resource type="Texture2D" uid="uid://d3rwwgwh5c5ir" path="res://asset/checker_512x512/checker_pink_512x512.png" id="6_fk8x5"]
+[ext_resource type="Texture2D" uid="uid://bb7kv3oe14un4" path="res://asset/checker_512x512/checker_red_512x512.png" id="7_hgjt1"]
+[ext_resource type="Texture2D" uid="uid://crq6lv6t4msf2" path="res://asset/checker_512x512/checker_white_512x512.png" id="8_602mg"]
+[ext_resource type="Texture2D" uid="uid://c1j5dl23utmr2" path="res://asset/checker_512x512/checker_yellow_512x512.png" id="9_yhbkf"]
+[ext_resource type="Script" uid="uid://bkujkf7516xmm" path="res://script/player.gd" id="10_js5kq"]
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="11_srait"]
+[ext_resource type="Texture2D" uid="uid://uhociv5lqros" path="res://asset/LANTERNINHA.png" id="12_obnix"]
+[ext_resource type="PackedScene" uid="uid://f6grr6f1fpoe" path="res://scene/interactable_area.tscn" id="13_42wy6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b3bx6"]
-texture = ExtResource("1_7almn")
+texture = ExtResource("1_js5kq")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n86a4"]
-texture = ExtResource("2_m7fl4")
+texture = ExtResource("2_vtby7")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r44gg"]
-texture = ExtResource("3_lgf31")
+texture = ExtResource("3_842w1")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ha2wn"]
-texture = ExtResource("4_obvlr")
+texture = ExtResource("4_xqcrn")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hcxjj"]
-texture = ExtResource("5_u3v0p")
+texture = ExtResource("5_humct")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l51vy"]
-texture = ExtResource("6_sp175")
+texture = ExtResource("6_fk8x5")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ys71v"]
-texture = ExtResource("7_1uo2c")
+texture = ExtResource("7_hgjt1")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t151w"]
-texture = ExtResource("8_ucvwu")
+texture = ExtResource("8_602mg")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i3lyw"]
-texture = ExtResource("9_2s2c0")
+texture = ExtResource("9_yhbkf")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 
@@ -73,17 +74,6 @@ sources/8 = SubResource("TileSetAtlasSource_i3lyw")
 [sub_resource type="CircleShape2D" id="CircleShape2D_0yc80"]
 radius = 28.284271
 
-[sub_resource type="Gradient" id="Gradient_7almn"]
-colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
-
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_0yc80"]
-gradient = SubResource("Gradient_7almn")
-width = 512
-height = 512
-fill = 1
-fill_from = Vector2(0.5, 0.5)
-metadata/_snap_enabled = true
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_wkpy8"]
 radius = 61.188232
 
@@ -97,11 +87,11 @@ tile_map_data = PackedByteArray("AAD/////AAAAAAAAAAAAAP//AAAAAAAAAAABAP//AAAAAAA
 tile_set = SubResource("TileSet_0yc80")
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=1841931163]
-script = ExtResource("1_53m4d")
+script = ExtResource("10_js5kq")
 
 [node name="Icon" type="Sprite2D" parent="Player" unique_id=2122073254]
 scale = Vector2(0.43554688, 0.43554688)
-texture = ExtResource("2_mpmvb")
+texture = ExtResource("11_srait")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1991615587]
 shape = SubResource("CircleShape2D_0yc80")
@@ -110,8 +100,9 @@ shape = SubResource("CircleShape2D_0yc80")
 remote_path = NodePath("../../Marker2D")
 
 [node name="PointLight2D" type="PointLight2D" parent="Player" unique_id=1695547459]
+position = Vector2(-12, 21)
 shadow_enabled = true
-texture = SubResource("GradientTexture2D_0yc80")
+texture = ExtResource("12_obnix")
 
 [node name="InteractionArea" type="Area2D" parent="Player" unique_id=1768484335]
 
@@ -134,7 +125,7 @@ editor_draw_drag_margin = true
 [node name="LightOccluder2D" type="LightOccluder2D" parent="." unique_id=319437384]
 occluder = SubResource("OccluderPolygon2D_m7fl4")
 
-[node name="InteractableArea" parent="." unique_id=1044666560 instance=ExtResource("12_m7fl4")]
+[node name="InteractableArea" parent="." unique_id=1044666560 instance=ExtResource("13_42wy6")]
 position = Vector2(564, 252)
 
 [connection signal="interacted" from="InteractableArea" to="Player" method="_on_interactable_area_interacted"]
